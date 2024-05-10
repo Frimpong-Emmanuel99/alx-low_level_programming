@@ -8,14 +8,11 @@
 int main(void)
 {
 	int i;
-	int j;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 'z'; i <= 'a'; i--)
 	{
-		putchar(i);
-	}
-	for (j = 'A'; j <= 'Z'; j++)
-	{
+		if (i == 'e' || i == 'q')
+			continue;
 		putchar(i);
 	}
 	putchar('\n');
