@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - entry point
+ * @c: the character checker
  * Return: 1 if c is a letter or 0
  */
 
