@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strncat - A program to 
- *
- *
- *
+ * _strncat - A program to concanate strings
+ * @dest: The destination pointer
+ * @src: The source pointer
+ * @n: The parameter
+ * Return: The destination pointer
  */
 
 char *_strncat(char *dest, char *src, int n)
